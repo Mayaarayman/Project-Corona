@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../images/shape-a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f7f9fe;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+header .top-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-weight: 900;
+    color: #394b6c;
+    font-size: 28PX;
+}
+
+
+header .top-bar .logo span{
+    color: #4b6691;
+}
+
+header .top-bar nav {
+    margin-left: 45px;
+    font-size: 26px;
+}
+
+header .top-bar li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+header .top-bar li:last-child {
+    margin-right: 0;
+}
+
+header .top-bar li a {
+    color:  #394b6c;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .top-bar li a:active {
+    color:  red !important;
+  
+}
+
+header .top-bar .mobile-btn {
+    display: none;
+}
+
+header .top-bar button{
+    border-radius: 35px;
+    background-color: #2a81ea;
+    color: #fff;
+    padding: 1px 14px;
+    border: 2px solid #2a81ea;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner{
+    padding-top:70px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.goTop {
+    background-color: #2b56f5;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    right: 1%;
+    bottom: 3%;
+    border-radius: 65%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.banner .welcome-msg .banner-text h1{
+    margin: 10px 1px;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: "Oswald", sans-serif;
+    color: #50658e;
+    text-transform: uppercase;
+}
+
+.banner .welcome-msg .banner-text .text h2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+}
+
+.banner .welcome-msg .para p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 65px;
+    padding-left: 9px;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: #3d4b69;
+}
+
+.banner .welcome-msg .banner-button {
+     display: flex;
+     justify-content: space-around;
+     align-items: baseline;
+}
+
+.banner .welcome-msg .banner-button .bann-button button{
+    border-radius: 35px;
+    background-color: #2a81ea;
+    color: #fff;
+    padding: 6px 27px;
+    border: 2px solid #2a81ea;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.banner .welcome-msg .banner-button .bann-button button svg{
+    margin-left: 11px;
+}
+
+.banner .welcome-msg .banner-button .bann-button p{
+    color: #2a81ea;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner .welcome-msg .banner-button .bann-button p svg{
+    margin-left: 11px;
+}
+
+.banner .welcome-msg .banner-button .bann-button p:hover{
+    color: #50658e
+}
+
+.banner .welcome-msg .banner-paragraph {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0px;
+}
+
+.banner .welcome-msg .banner-paragraph .bann-text p{
+    margin-top: 15px;
+    color: #7d92bb;
+    line-height: 0.5em;
+    font-size: 17px;
+}
+
+.banner .welcome-msg .banner-paragraph .bann-text span{
+    color: #465675;
+    line-height: 0.4em;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.banner .welcome-msg .paragraph {
+    color: #7d92bb;
+    font-size: 12px;
+    font-style: italic;
+    margin:10px 0px;
+}
+
+ .banner-img {
+    height: 37vw;
+    width: 48vw;
+} 
+
+.information{
+    height: 100vh;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding: 80px;
+}
+
+.information .row h2{
+    color: #2a81ea;
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.information .row h1{
+    color: #50658e;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.information .row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3d4b69;
+    line-height: 1.8em;
+    
+}
+
+.information .row p{
+    color: #3d4b69;
+    line-height: 1.7em;
+}
+
+.information .row .col ul{
+    border-bottom-color: #e7e8ff;
+}
+
+.information .row .col li{
+    padding: 20px;
+}
+
+.information .row .col .list-group-item{
+    color: #3d4b69;
+}
+
+.information .col .card{
+    border: none;
+    position: relative;
+    transform: translate(72px, 3px);
+    width: 80%;
+} 
+
+.information .col .card .card-shadow li{
+    padding: 16px 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corona-details{
+    height: 130vh;
+    width: auto;
+    background-color: #f7f9fe;
+    position: relative;
+    padding: 0px;
+}
+
+.corona-details .corona-spread{
+    width: 60%;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.corona-details .corona-spread h3{
+    color: #2a81ea;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.corona-details .corona-spread h1{
+    color: #50658e;
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+
+.corona-details .corona-spread p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+
+.corona-details .card-deck{
+    width: 80%;
+    position: absolute;
+    transform: translate(30px, 20px);
+    top: 35%;
+    left: 10%;
+    
+}
+
+.corona-details .card-deck .card{
+    border: none;
+}
+
+.corona-details .card-deck .card-title{
+    font-size: 16px;
+    color: #2a81ea;
+}
+
+.corona-details .card-text{
+    font-size: 14px;
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+
+img.card-img-top{
+    border-bottom-color: #9cc2f7;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+.corona-details .button-spread{
+    border-radius: 35px;
+    background-color: #2a81ea;
+    color: #fff;
+    padding: 6px 19px;
+    border: 2px solid #2a81ea;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 23%;
+    position: absolute;
+    transform: translate(30px, 20px);
+    top: 88%;
+    left: 35%;
+}
+
+.button-spread svg{
+    color: #fff;
+    border-radius: 10%;
+}
+
+.corona-effect{
+    text-align: center;
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.corona-effect .corona-picture{
+    position: absolute;
+    padding: 35px;
+    transform: translate(4px, 8px);
+}
+
+.corona-effect .corona-effect-container{
+    width: 60%;
+    margin: auto;
+}
+
+.corona-effect .corona-effect-container h3{
+    color: #2a81ea;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.corona-effect .corona-effect-container h1{
+    color: #50658e;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+}
+
+
+.corona-effect .row .card.border-white{
+    width: 100%;
+    height: 100%;
+}
+
+.corona-effect .row .card.shadow{
+    padding: 15px 9px;
+}
+
+.corona-effect .row .left-title{
+    text-align: left;
+}
+
+.attention{
+    display: flex;
+    position: absolute;
+    transform: translate(-8px, 450px);
+    left: 13%;
+    width: 90%;
+    margin-top: 95px;
+    margin-bottom: 45px;
+}
+
+.attention .attention-txt{
+    display: flex;
+    width: 55%;
+    
+}
+
+.attention .attention-txt .alert-sign{
+    display: flex;
+}
+
+.attention .attention-txt button{
+    border-radius: 35px;
+    background-color: #2a81ea;
+    color: #fff;
+    padding: 6px 27px;
+    border: 2px solid #2a81ea;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    position: absolute;
+    transform: translate(30px, 30px);
+    top: 85%;
+    left: 35%;
+} 
+
+.advice {
+    margin-top: 100px;
+    
+}
+
+.advice .advice-container h3{
+    color: #2a81ea;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.advice .advice-container h1{
+    color: #50658e;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.advice .advice-container p{
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.advice .advice-container span{
+    font-weight: bold;
+    color: #3d4b69;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.advice-button{
+    margin:30px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col.text-left.mb-5{
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size:15px ;
+}
+
+.advice-steps{
+    color: #50658e;
+    font-weight: bold;
+    line-height: 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+#Treatment{
+    background-color: #2766bb;
+    background-image: url(../images/shape-a.png);
+    background-position: center;
+}
+
+.trea{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.treat-left-txt{
+    margin-top: 30px;
+    line-height: 1.5em;
+    color: #ced4ff;
+    width: 100vw;
+    position: relative;
+    transform: translate(70px, 60px);
+    padding: 0px 70px;
+    font-size: 18px;
+}
+
+.treat-left-txt h5{
+    letter-spacing: 0.1em;
+    color: #73e3ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.treat-left-txt h2{
+    font-weight: 900;
+    color: #fff;
+    font-size: 32PX;
+    font-family: "Oswald", sans-serif;
+}
+
+.treat-left-txt span{
+    font-weight: bold;
+}
+
+
+
+.treat-right-txt{
+    background-color: #1b47a1;
+    padding: 35px;
+    margin-top: 60px;
+    height: 35vw;
+    width: 45vw;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.treat-right-txt h6{
+    font-size: 16px;
+    color: #fff;
+}
+
+.treat-right-txt p{
+    line-height: 1.5em;
+    color: #fff;
+    font-size: 14px;
+}
+
+.treat-right-txt ul li{
+    display: flex;
+}
+
+.treat-right-txt .icon{
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.treat-right-txt .text{
+    color: #fff;
+    font-size: 16px;
+}
+
+.treat-right-txt h5{
+    letter-spacing: 0.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.question-txt h5{
+    color: #2a81ea;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.question-txt h2{
+    color: #50658e;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Oswald", sans-serif;
+    font-size: 45px;
+    text-align: center
+}
+
+.question-txt .boxshadow-left .box{
+    position: relative;
+    transform: translate(10px, 10px);
+    left: 15%;
+}
+
+
+
+.question-txt .boxshadow-left .box p{
+    padding: 8px;
+}
+
+.question-txt .boxshadow-left .box svg{
+    padding: 2px;
+    margin-left: 125px;
+    margin-top: 12px;
+}
+
+.updated#update{
+    width: auto;
+    background-color: #f7f9fe;
+    position: relative;
+    padding: 70px 0px;
+}
+
+.updated .update-container{
+    text-align: center;
+    padding: 55px;
+}
+
+.updated .update-container h3{
+    color: #2a81ea;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.updated .update-container h1{
+    color: #50658e;
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+
+.updated#update .card{
+    box-shadow: 0px 0.3125pc 40px 0pt rgba(80, 101, 142, .08);
+    border: none;
+}
+
+.updated#update .card-deck img{
+    padding: 30px;
+    border-bottom-color: #fff;
+    border-bottom-style: none;
+}
+
+.updated .card-deck .card-body{
+    padding: 3px 28px;
+}
+
+.footer {
+    padding: 30px 0;
+    background-image: url(../images/shape-a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #151c2e;
+}
+
+.footer h2 {
+    margin-bottom: 25px;
+}
+
+.footer h2 svg{
+    color: #ff5363;
+}
+
+.footer h2 span{
+    color: #4b6691;
+}
+
+.footer .footer-container {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.footer .team-box p{
+    color: #b2bfe0;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+
+.footer .team-box h4{
+    letter-spacing: .1em;
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+ul.fixed-nav{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul.fixed-nav li{
+    margin-bottom: 7px;
+}
+
+.foot .foo{
+    padding: 22px 130px;
+}
+
+.foot .f{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.foot .f{
+    font-weight: bold;
+    color: #fff;
+}
+
+.foot .foo .fo{
+    border: 0.1px solid #b2bfe0;
+}
